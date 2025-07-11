@@ -7,6 +7,8 @@ sap.ui.define([
         onInit() {
         },
         onPressView2: function () {
+
+            
             var oComponent = this.getOwnerComponent();
             var oRouter = oComponent.getRouter();
             oRouter.navTo("RouteView2");
