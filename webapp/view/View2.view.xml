@@ -1,0 +1,6 @@
+<mvc:View controllerName="zmatdetails.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page2" title="Hello from View 2" showNavButton="true" navButtonPress="onNavBack">
+    </Page>
+</mvc:View>

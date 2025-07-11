@@ -1,0 +1,39 @@
+<mvc:View controllerName="zmatdetails.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <Table items="{/aProducts}">
+            <headerToolbar>
+                <OverflowToolbar >
+                    <Title text="Product Details"></Title>
+                    <ToolbarSpacer ></ToolbarSpacer>
+                    <Button text="Nav to View 2" press="onPressView2"></Button>
+                </OverflowToolbar>
+            </headerToolbar>
+            <columns>
+                <Column >
+                    <Text text="Product Id"></Text>
+                </Column>
+                <Column >
+                    <Text text="Product Name"></Text>
+                </Column>
+                <Column >
+                    <Text text="Product Price"></Text>
+                </Column>
+                <Column >
+                    <Text text="Product Status"></Text>
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem type="Active"  press="onPressView2">
+                    <cells>
+                        <Text text="{productId}"></Text>
+                        <Text text="{productName}"></Text>
+                        <Text text="{price}"></Text>
+                        <Text text="{status}"></Text>
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </Page>
+</mvc:View>

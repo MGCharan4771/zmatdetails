@@ -1,0 +1,64 @@
+{
+    "aProducts": [
+        {
+            "productId": "P1001",
+            "productName": "Wireless Mouse",
+            "price": 599.99,
+            "status": "Available"
+        },
+        {
+            "productId": "P1002",
+            "productName": "Gaming Keyboard",
+            "price": 1999.00,
+            "status": "Available"
+        },
+        {
+            "productId": "P1003",
+            "productName": "USB-C Charger",
+            "price": 899.50,
+            "status": "Out of Stock"
+        },
+        {
+            "productId": "P1004",
+            "productName": "Bluetooth Speaker",
+            "price": 1499.00,
+            "status": "Available"
+        },
+        {
+            "productId": "P1005",
+            "productName": "Laptop Stand",
+            "price": 799.00,
+            "status": "Discontinued"
+        },
+        {
+            "productId": "P1006",
+            "productName": "Webcam 1080p",
+            "price": 1299.00,
+            "status": "Available"
+        },
+        {
+            "productId": "P1007",
+            "productName": "External Hard Drive 1TB",
+            "price": 3499.00,
+            "status": "Available"
+        },
+        {
+            "productId": "P1008",
+            "productName": "Smart LED Bulb",
+            "price": 499.99,
+            "status": "Out of Stock"
+        },
+        {
+            "productId": "P1009",
+            "productName": "Noise Cancelling Headphones",
+            "price": 4999.00,
+            "status": "Available"
+        },
+        {
+            "productId": "P1010",
+            "productName": "Portable SSD 500GB",
+            "price": 2999.00,
+            "status": "Available"
+        }
+    ]
+}
